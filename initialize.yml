@@ -6,7 +6,7 @@
       apt:
         upgrade: yes
 
-    - name: "Are packages installed?"
+    - name: "Install missing packages"
       apt:
         name:
           - vim
