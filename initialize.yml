@@ -67,6 +67,7 @@
       state: present
       update_cache: yes
 
+# is this thing working?
 # optional you may to add your user to docker group 
 
 # sudo groupadd docker
