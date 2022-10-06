@@ -25,6 +25,7 @@
           - libssl-dev
           - git
           - gpg
+          - tree
         state: present
     # install packages to allow apt to use a repository over HTTPS:
     - name: Install docker packages
