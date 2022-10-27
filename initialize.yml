@@ -70,11 +70,11 @@
 # is this thing working?
 # optional you may to add your user to docker group
 
-# sudo groupadd docker
-#- name: Create "docker" group
-#  group:
-#    name: "docker"
-#    state: present
+ sudo groupadd docker
+- name: Create "docker" group
+  group:
+    name: "docker"
+    state: present
 
 # sudo usermod -aG docker root
 #- name: Add user to docker group
