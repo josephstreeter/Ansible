@@ -70,7 +70,7 @@
 # is this thing working?
 # optional you may to add your user to docker group
 
- sudo groupadd docker
+# sudo groupadd docker
 - name: Create "docker" group
   group:
     name: "docker"
